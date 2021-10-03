@@ -28,7 +28,7 @@ void initialize()
     else
     {
         std::cout << "env = nullptr\n";
-        Sleep(100);
+        Sleep(1000);
     }
 
     mc.vm->DestroyJavaVM();
